@@ -1,0 +1,58 @@
+{
+  "brand": "Aslan",
+  "nav": {
+    "home": "首页",
+    "hammams": "土耳其浴",
+    "contacts": "联系方式",
+    "request": "留下申请"
+  },
+  "hero": {
+    "headline": "伊斯坦布尔正宗土耳其浴",
+    "sub": "预订蒸汽、大理石与静谧奢华的仪式。",
+    "cta": "浏览浴场"
+  },
+  "catalog": {
+    "title": "我们的浴场",
+    "subtitle": "精选伊斯坦布尔浴场，附 TripAdvisor 评分。",
+    "from": "起",
+    "book": "立即预订",
+    "tripadvisor": "TripAdvisor",
+    "empty": "暂无已发布的浴场。"
+  },
+  "contacts": {
+    "title": "联系方式",
+    "subtitle": "我们会尽快回复——告诉我们您的需求。",
+    "email": "邮箱",
+    "writeUs": "写信给我们"
+  },
+  "callback": {
+    "title": "留下申请",
+    "subtitle": "留下姓名和电话，我们会回电。",
+    "name": "姓名",
+    "phone": "电话",
+    "submit": "发送申请",
+    "success": "谢谢！我们很快会联系您。",
+    "error": "出错了，请重试。"
+  },
+  "booking": {
+    "title": "预订此浴场",
+    "subtitle": "选择时间并留下联系方式。",
+    "name": "姓名",
+    "phone": "电话",
+    "email": "邮箱",
+    "slot": "日期与时间",
+    "noSlots": "暂无可用时段。请留下回电申请。",
+    "message": "留言（可选）",
+    "submit": "发送预订申请",
+    "success": "申请已发送！我们将通过电话或邮箱确认。",
+    "error": "发送失败，请重试。"
+  },
+  "footer": {
+    "rights": "版权所有。",
+    "tagline": "伊斯坦布尔土耳其浴体验"
+  },
+  "common": {
+    "close": "关闭",
+    "loading": "发送中…"
+  }
+}

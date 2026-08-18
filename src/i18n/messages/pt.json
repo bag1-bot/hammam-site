@@ -1,0 +1,58 @@
+{
+  "brand": "Aslan",
+  "nav": {
+    "home": "Início",
+    "hammams": "Hammams",
+    "contacts": "Contactos",
+    "request": "Deixar pedido"
+  },
+  "hero": {
+    "headline": "Hammams autênticos de Istambul",
+    "sub": "Reserve um ritual de vapor, mármore e luxo sereno.",
+    "cta": "Ver hammams"
+  },
+  "catalog": {
+    "title": "Os nossos hammams",
+    "subtitle": "Banhos selecionados em Istambul com avaliações TripAdvisor.",
+    "from": "desde",
+    "book": "Reservar",
+    "tripadvisor": "TripAdvisor",
+    "empty": "Ainda não há hammams publicados."
+  },
+  "contacts": {
+    "title": "Contactos",
+    "subtitle": "Respondemos depressa — diga-nos o que precisa.",
+    "email": "Email",
+    "writeUs": "Escreva-nos"
+  },
+  "callback": {
+    "title": "Deixar pedido",
+    "subtitle": "Indique o nome e telefone — ligamos de volta.",
+    "name": "Nome",
+    "phone": "Telefone",
+    "submit": "Enviar pedido",
+    "success": "Obrigado! Entraremos em contacto em breve.",
+    "error": "Algo correu mal. Tente novamente."
+  },
+  "booking": {
+    "title": "Reservar este hammam",
+    "subtitle": "Escolha a hora e deixe os seus contactos.",
+    "name": "Nome",
+    "phone": "Telefone",
+    "email": "Email",
+    "slot": "Data e hora",
+    "noSlots": "Ainda sem horários. Deixe um pedido de chamada.",
+    "message": "Mensagem (opcional)",
+    "submit": "Enviar pedido de reserva",
+    "success": "Pedido enviado! Confirmamos por telefone ou email.",
+    "error": "Não foi possível enviar. Tente novamente."
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "tagline": "Experiências de hammam em Istambul"
+  },
+  "common": {
+    "close": "Fechar",
+    "loading": "A enviar…"
+  }
+}

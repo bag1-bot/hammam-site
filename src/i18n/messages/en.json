@@ -1,0 +1,58 @@
+{
+  "brand": "Aslan",
+  "nav": {
+    "home": "Home",
+    "hammams": "Hammams",
+    "contacts": "Contacts",
+    "request": "Leave a request"
+  },
+  "hero": {
+    "headline": "Authentic hammams of Istanbul",
+    "sub": "Book a ritual of steam, marble, and quiet luxury.",
+    "cta": "Explore hammams"
+  },
+  "catalog": {
+    "title": "Our hammams",
+    "subtitle": "Curated baths across Istanbul with verified TripAdvisor ratings.",
+    "from": "from",
+    "book": "Book now",
+    "tripadvisor": "TripAdvisor",
+    "empty": "No hammams published yet."
+  },
+  "contacts": {
+    "title": "Contacts",
+    "subtitle": "We reply quickly — tell us what you need.",
+    "email": "Email",
+    "writeUs": "Write to us"
+  },
+  "callback": {
+    "title": "Leave a request",
+    "subtitle": "Share your name and phone — we will call you back.",
+    "name": "Name",
+    "phone": "Phone",
+    "submit": "Send request",
+    "success": "Thank you! We will contact you soon.",
+    "error": "Something went wrong. Please try again."
+  },
+  "booking": {
+    "title": "Book this hammam",
+    "subtitle": "Choose a time and leave your contacts.",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "slot": "Date & time",
+    "noSlots": "No available slots yet. Leave a callback request.",
+    "message": "Message (optional)",
+    "submit": "Send booking request",
+    "success": "Request sent! We will confirm by phone or email.",
+    "error": "Could not send request. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "tagline": "Hammam experiences in Istanbul"
+  },
+  "common": {
+    "close": "Close",
+    "loading": "Sending…"
+  }
+}

@@ -1,0 +1,57 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Hammam {
+  id                String    @id @default(cuid())
+  slug              String    @unique
+  name              Json
+  address           Json
+  description       Json
+  photos            String
+  tripadvisorRating Float?
+  tripadvisorUrl    String?
+  price             Float
+  currency          String    @default("EUR")
+  isPublished       Boolean   @default(false)
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  slots             Slot[]
+  inquiries         Inquiry[]
+}
+
+model Slot {
+  id          String    @id @default(cuid())
+  hammamId    String
+  hammam      Hammam    @relation(fields: [hammamId], references: [id], onDelete: Cascade)
+  startsAt    DateTime
+  durationMin Int       @default(30)
+  isActive    Boolean   @default(true)
+  createdAt   DateTime  @default(now())
+  inquiries   Inquiry[]
+
+  @@index([hammamId, startsAt])
+}
+
+model Inquiry {
+  id          String      @id @default(cuid())
+  type        String
+  name        String
+  phone       String
+  email       String?
+  hammamId    String?
+  hammam      Hammam?     @relation(fields: [hammamId], references: [id], onDelete: SetNull)
+  slotId      String?
+  slot        Slot?       @relation(fields: [slotId], references: [id], onDelete: SetNull)
+  preferredAt DateTime?
+  message     String?
+  locale      String      @default("en")
+  createdAt   DateTime    @default(now())
+
+  @@index([createdAt])
+}
